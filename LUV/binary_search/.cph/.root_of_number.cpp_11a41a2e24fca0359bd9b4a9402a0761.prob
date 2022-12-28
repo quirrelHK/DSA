@@ -1,0 +1,1 @@
+{"name":"Local: root_of_number","url":"b:\\Desktop\\DSA\\LUV\\binary_search\\root_of_number.cpp","tests":[{"id":1669122847265,"input":"9 3","output":"5 20\n4 42 40 26 46"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\DSA\\LUV\\binary_search\\root_of_number.cpp","group":"local","local":true}

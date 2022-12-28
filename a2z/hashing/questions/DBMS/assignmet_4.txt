@@ -1,0 +1,173 @@
+SQL> delete from salesman_mast where sal_amount = 2000;
+
+0 rows deleted.
+
+SQL> rollback;
+
+Rollback complete.
+
+SQL> desc product_mast;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PRODUCT_NO                                         VARCHAR2(6)
+ DESCRIPTION                                        VARCHAR2(14)
+ PROFIT_PERC                                        NUMBER(5,2)
+ UNITS                                              VARCHAR2(10)
+ QTY_AVAILABLE                                      NUMBER(6)
+ SELL_PRICE                                         NUMBER(7,2)
+ COST_PRICE                                         NUMBER(7,2)
+
+SQL> delete from product_mast where qty_available = 100;
+
+2 rows deleted.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> delete from client_mast where state = 'Illinois';
+
+0 rows deleted.
+
+SQL> select * from client_mast;
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B001   Procurez             12, sunbay street         paul street
+      1233 Florida               3500
+
+B002   BMW                  6, Rocky creek            Jacksonville
+      1234 Florida               3488
+
+B003   Takenote             7, Hudson bay             Puria
+      6454 Illionis              4555
+
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B009   infospace            1243, princiton circle    Fairfax
+      3433 Virginia              4433
+
+B005   ASAP                 23, North city            Puria
+      4354 Illionis              2000
+
+
+SQL> update client_mast set state = 'Illinois' where state = 'Illionis';
+
+2 rows updated.
+
+SQL>
+SQL>
+SQL>
+SQL> commit;
+
+Commit complete.
+
+SQL>
+SQL>
+SQL> delete from client_mast where state = 'Illinois';
+
+2 rows deleted.
+
+SQL> delete from employee where basic_sal < 2000;
+
+0 rows deleted.
+
+SQL> select * from employee;
+
+EMPNO  ENAME                JOB        HIREDATE   BASIC_SAL       COMM DEPT
+------ -------------------- ---------- --------- ---------- ---------- ----
+E0001  Kim                  Manager    15-DEC-02       5000        500 D001
+E0002  Bruce                Analyst    24-APR-99       4000        400 D002
+E0003  Arnold               Clerk      10-JAN-01       3000        250 D004
+E0004  Holyfield            Tester     10-OCT-01       3500        300 D002
+E0005  Kelly                Admin      11-APR-99       3000        200 D003
+
+SQL> select * from client_mast;
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B001   Procurez             12, sunbay street         paul street
+      1233 Florida               3500
+
+B002   BMW                  6, Rocky creek            Jacksonville
+      1234 Florida               3488
+
+B009   infospace            1243, princiton circle    Fairfax
+      3433 Virginia              4433
+
+
+SQL> rollback;
+
+Rollback complete.
+
+SQL> select * from client_mast;
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B001   Procurez             12, sunbay street         paul street
+      1233 Florida               3500
+
+B002   BMW                  6, Rocky creek            Jacksonville
+      1234 Florida               3488
+
+B003   Takenote             7, Hudson bay             Puria
+      6454 Illinois              4555
+
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B009   infospace            1243, princiton circle    Fairfax
+      3433 Virginia              4433
+
+B005   ASAP                 23, North city            Puria
+      4354 Illinois              2000
+
+
+SQL> delete from client_mast where state = 'Illinois';
+
+2 rows deleted.
+
+SQL> savepoint s1;
+
+Savepoint created.
+
+SQL> delete from employee where basic_sal < 2000;
+
+0 rows deleted.
+
+SQL> rollback to s1;
+
+Rollback complete.
+
+SQL> select * from client_mast;
+
+CLIENT NAME                 ADDRESS                   CITY
+------ -------------------- ------------------------- --------------------
+   PINCODE STATE              BAL_DUE
+---------- --------------- ----------
+B001   Procurez             12, sunbay street         paul street
+      1233 Florida               3500
+
+B002   BMW                  6, Rocky creek            Jacksonville
+      1234 Florida               3488
+
+B009   infospace            1243, princiton circle    Fairfax
+      3433 Virginia              4433
+
+
+SQL> commit;
+
+Commit complete.
+
+SQL>

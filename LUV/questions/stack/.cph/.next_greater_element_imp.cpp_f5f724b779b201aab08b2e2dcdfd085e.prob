@@ -1,0 +1,1 @@
+{"name":"Local: next_greater_element_imp","url":"b:\\Desktop\\DSA\\LUV\\questions\\stack\\next_greater_element_imp.cpp","tests":[{"id":1668622758769,"input":"6\n2 5 6 3 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\DSA\\LUV\\questions\\stack\\next_greater_element_imp.cpp","group":"local","local":true}

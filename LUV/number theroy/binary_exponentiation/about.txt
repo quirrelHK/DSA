@@ -1,0 +1,7 @@
+binary exponentitaion is nothing but a algorithm to calculate a^b. like pow(a,b)
+
+why it is required?
+Because of precision errors for large numbers.
+
+Although double data type is able to store very large numbers, but the it is not very precise for large numbers.
+pow() function returns a double. So, for very large numbers we might get different results then expected

@@ -1,0 +1,1 @@
+{"name":"Local: balanced_brackets","url":"b:\\Desktop\\DSA\\LUV\\questions\\stack\\balanced_brackets.cpp","tests":[{"id":1668087651557,"input":"3\n{[[(())]]}{}\n[[[]}}\n[]{}()((){})","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\DSA\\LUV\\questions\\stack\\balanced_brackets.cpp","group":"local","local":true}

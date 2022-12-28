@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"b:\\Desktop\\DSA\\LUV\\temp.cpp","tests":[{"id":1665229696102,"input":"2\n5\n2 2 2 2 2\n4\n2 2 2 2","output":""},{"id":1665229751147,"input":"there","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\DSA\\LUV\\temp.cpp","group":"local","local":true}
