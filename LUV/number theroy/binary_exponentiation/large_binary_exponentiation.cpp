@@ -42,6 +42,7 @@ long long binMultiply(long long a, long long b){
 }
 int main(){
 
-    cout << binExp(100,13) << endl;
-    cout << setprecision(30) <<  pow(100,13) << endl;
+    // cout << binExp(100,13) << endl;
+    // cout << setprecision(30) <<  pow(100,13) << endl;
+    cout << binMultiply(2,20) << endl;
 }

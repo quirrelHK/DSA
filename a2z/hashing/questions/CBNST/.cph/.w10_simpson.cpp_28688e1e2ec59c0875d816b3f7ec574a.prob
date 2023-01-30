@@ -1,1 +1,0 @@
-{"name":"Local: w10_simpson","url":"b:\\Desktop\\notRitesh\\CBNST\\w10_simpson.cpp","tests":[{"id":1669348860892,"input":"1 0","output":"Using Simpson's 1/3: 0.785398\nUsing Simpson's 3/8: 0.785396"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\notRitesh\\CBNST\\w10_simpson.cpp","group":"local","local":true}

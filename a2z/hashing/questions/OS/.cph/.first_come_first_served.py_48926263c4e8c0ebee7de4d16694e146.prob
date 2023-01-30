@@ -1,1 +1,0 @@
-{"name":"Local: first_come_first_served","url":"b:\\Desktop\\notRitesh\\OS\\first_come_first_served.py","tests":[{"id":1667364356269,"input":"5\n0 1 2 3 4\n2 3 6 5 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"b:\\Desktop\\notRitesh\\OS\\first_come_first_served.py","group":"local","local":true}

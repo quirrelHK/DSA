@@ -29,7 +29,7 @@ int main(){
     cout << char(1<<5) << endl; // This is acutally whitespace(TO UPPER)
     
     // FOR LOWER we only require 00001011111 (instead of 11111011111)
-    // 00001011111-> UNDERSCORE
+    // 00001011111-> UND ERSCORE
 
     cout << char('C' | int(' ')) << endl;
 
