@@ -1,0 +1,13 @@
+(A/B)%M = (A*B^-1)%M
+
+Here B^-1 is the MMI of B.
+This MMI of a nubmer can be found out in O(logN) with fermat little theorem
+
+A^(M-1) mod M = 1; where M is prime and A is not a multiple of M
+
+similarly,
+A^(M-2) mod M = A^-1; we can find A^(M-2) using binary exponentitaion
+
+This can be useful in permutation and combination problems
+
+Whenever you want to calculate division when modulo is involved

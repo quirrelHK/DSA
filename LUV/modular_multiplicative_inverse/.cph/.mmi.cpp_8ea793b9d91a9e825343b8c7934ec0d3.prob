@@ -1,0 +1,1 @@
+{"name":"Local: mmi","url":"d:\\ritesh\\Desktop\\DSA\\LUV\\modular_multiplicative_inverse\\mmi.cpp","tests":[{"id":1675190535074,"input":"5\n10 5\n7 2\n8 7\n3 2\n50 23","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\LUV\\modular_multiplicative_inverse\\mmi.cpp","group":"local","local":true}
