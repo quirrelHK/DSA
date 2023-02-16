@@ -1,0 +1,4 @@
+Bfs is level order traversal
+It is used to find shortest path between any two nodes if all edges have similar weights
+The level of any node is only set once(i.e. we visit each node only once; since bfs is level order we ensure
+that nodes are traversed one level at a time)

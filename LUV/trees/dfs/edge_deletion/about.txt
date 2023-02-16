@@ -1,0 +1,1 @@
+In these type of questions we generally use pre-computation techniques

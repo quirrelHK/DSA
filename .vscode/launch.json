@@ -15,7 +15,7 @@
             ],
             "launchCompleteCommand": "exec-run",
             
-            
+            "targetArchitecture": "arm64",
             "cwd": "${workspaceFolder}"
           }
     ]

@@ -8,7 +8,7 @@ const int N=1e3+10;
 vector<int> tree[N];
 int depth[N],height[N];
 
-// Here we can just use parent of avoid going to visited nodes
+// Here we can just use parent to avoid going to visited nodes
 void dfs(int node, int parent=0){
     
     for(int child:tree[node]){

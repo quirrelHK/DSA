@@ -1,0 +1,1 @@
+{"name":"Local: sum_of_two_numbers","url":"d:\\ritesh\\Desktop\\DSA\\codeforces\\sum_of_two_numbers.cpp","tests":[{"id":1675961499993,"input":"5\n1\n161\n67\n1206\n19","output":"1 0\n67 94\n60 7\n1138 68\n14 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\codeforces\\sum_of_two_numbers.cpp","group":"local","local":true}
