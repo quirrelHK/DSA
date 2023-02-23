@@ -1,0 +1,1 @@
+{"name":"Local: dsu","url":"d:\\ritesh\\Desktop\\DSA\\LUV\\disjoint_set_union\\dsu.cpp","tests":[{"id":1677086741058,"input":"10 7\n1 2\n1 3\n6 3\n6 8\n4 5\n4 7\n9 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\LUV\\disjoint_set_union\\dsu.cpp","group":"local","local":true}

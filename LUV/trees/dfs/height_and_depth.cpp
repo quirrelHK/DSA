@@ -22,7 +22,7 @@ void dfs(int node, int parent=0){
 int main(){
     int n;
     cin >> n;
-    for(int i=0;i<n-1;++i){
+    for(int i=0;i<n-1;++i){   // n is the number of nodes; there are n-1 edges in a tree with n nodes
         int u,v;
         cin >> u >> v;
         tree[u].push_back(v);
