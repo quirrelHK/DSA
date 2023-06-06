@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Scroll Example</title>
+  <style>
+    /* Style for the container element */
+    .text-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: aquamarine;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: large;
+    }
+
+    /* Style for the scrolling text */
+    .scrolling-text {
+      animation: scrollText 15s linear infinite;
+      white-space: nowrap;
+    }
+
+    /* CSS animation for scrolling text */
+    @keyframes scrollText {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Text Scroll Example</h1>
+  <p>Scrolling text example:</p>
+
+  <div class="text-container">
+    <p class="scrolling-text">This is a scrolling text.</p>
+  </div>
+</body>
+</html>

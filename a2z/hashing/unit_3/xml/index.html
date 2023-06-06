@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Information</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="book-container">
+    <h2>Title: <span id="title"></span></h2>
+    <p class="author">Author: <span id="author"></span></p>
+    <p>ISBN: <span id="isbn"></span></p>
+    <p>Publisher: <span id="publisher"></span></p>
+    <p>Edition: <span id="edition"></span></p>
+    <p>Price: <span id="price"></span></p>
+  </div>
+
+  <script>
+    // Fetch the XML file
+    fetch('book.xml')
+      .then(response => response.text())
+      .then(data => {
+        // Parse the XML data
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(data, 'application/xml');
+
+        // Extract the book information
+        const title = xml.querySelector('title').textContent;
+        const author = xml.querySelector('author').textContent;
+        const isbn = xml.querySelector('ISBN').textContent;
+        const publisher = xml.querySelector('publisher').textContent;
+        const edition = xml.querySelector('edition').textContent;
+        const price = xml.querySelector('price').textContent;
+
+        // Populate the HTML elements with the book information
+        document.getElementById('title').textContent = title;
+        document.getElementById('author').textContent = author;
+        document.getElementById('isbn').textContent = isbn;
+        document.getElementById('publisher').textContent = publisher;
+        document.getElementById('edition').textContent = edition;
+        document.getElementById('price').textContent = price;
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

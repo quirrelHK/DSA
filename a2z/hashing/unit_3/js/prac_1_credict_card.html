@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script> 
+function creditCardValidation(creditCradNum)
+{
+    let regEx_master = /^(?:5[1-5][0-9]{14})$/;
+    let regEx_visa = /^(?:4[0-9]{12}(?:[0-9]{3})?)$/;
+    let regEx_express = /^(?:3[47][0-9]{13})$/;
+    if(creditCradNum.value.match(regEx_master))
+        {
+            alert("Vlid Master Card number.");
+            return true;
+        }
+    if(creditCradNum.value.match(regEx_express))
+        {
+            alert("Valid American Express card number.");
+            return true;
+    }
+    if(creditCradNum.value.match(regEx_visa)){
+        alert("Valid Visa Card number.");
+        return true;
+    }
+    else{
+
+        alert("Please enter a valid card number.");
+        return false;
+    }
+    
+}    
+</script> 
+</head>
+<body>
+<div class="mail">
+<h2>JavaScript Credit Card Number Validation</h2>
+<h3>Enter card number from one of the following:</h3>
+<ol>
+    <li>
+        Visa
+    </li>
+    <li>
+        Master
+    </li>
+    <li>
+        American Express
+    </li>
+</ol>
+
+<form name="form1" action="#"> 
+Credit Number: <input type='text' name='creditCradNum'/></br></br>
+<input type="submit" name="submit" value="Submit" 
+onclick="creditCardValidation(document.form1.creditCradNum)"/>
+</form>
+</div>
+</body>
+</html>
