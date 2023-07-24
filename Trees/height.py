@@ -13,4 +13,4 @@ def find_height(root: TreeNode):
 arr=input().split()
 root=construct_tree(arr)
 
-print(find_height(root.right))
+print(find_height(root))

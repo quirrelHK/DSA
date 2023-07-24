@@ -13,6 +13,7 @@ def create_helper(arr,i):
     root = None
     # Base case for recursion
     if i < len(arr):
+    
         root = TreeNode(int(arr[i]))
  
         # insert left child
@@ -30,7 +31,7 @@ def construct_tree(arr):
 
 
 def inorder_traversal(root:TreeNode) -> None:
-    if not root: return
+    if not root: return None
     
     inorder_traversal(root.left)
     print(root.val,end=' ')
