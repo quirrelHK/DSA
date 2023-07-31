@@ -7,7 +7,7 @@ def vertical_view(root):
         return None
     
     mapp = defaultdict(lambda : defaultdict(lambda : []))
-    q = deque([(root,0,0)])
+    q = deque([(root,0,0)])  # node, vertical, level
     
     while q:
         front = q.popleft()
