@@ -36,12 +36,15 @@ def solve(A, B):
 # lst2=[28,22,23,12,56,23,45,12,45]
 # lst1=[1,2,1]
 # lst2=[10,2,3]
-lst1=list(map(int,input().split()))
-lst2=list(map(int,input().split()))
+# lst1=list(map(int,input().split()))
+# lst2=list(map(int,input().split()))
 
 # lst1=[11,18,0,0,-13,-1,1]
 # lst2=[10,25,29,38,5,36,38]
 
-print(solve(lst1,lst2))
+# print(solve(lst1,lst2))
+mydict = dict()
+print(mydict.get(5,False))
+
         
         

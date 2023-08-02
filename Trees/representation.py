@@ -1,3 +1,4 @@
+from collections import deque
 class TreeNode:
     
     def __init__(self,val=0) -> None:
@@ -38,9 +39,44 @@ def inorder_traversal(root:TreeNode) -> None:
     inorder_traversal(root.right)
     
     
+def preorder_traversal(root:TreeNode) -> None:
+    if root is None: return None
+
+    print(root.val, end=' ')
+    preorder_traversal(root.left)
+    preorder_traversal(root.right)
+    
+def postorder_traversal(root:TreeNode) -> None:
+    if root is None: return None
+    
+    postorder_traversal(root.left)
+    postorder_traversal(root.right)
+    print(root.val,end=' ')
+    
+def levelorder_traversal(root:TreeNode) -> None:
+    if root is None: return None
+    
+    q = deque([root])
+    while q:
+        size = len(q)
+        for i in range(size):
+            node = q.popleft()
+            print(node.val,end=' ')
+            
+            if node.left:
+                q.append(node.left)
+            if node.right:
+                q.append(node.right)
+    print()
+                
+    
 if __name__=='__main__':
     arr = input().split()
 
     root = construct_tree(arr)
     
     inorder_traversal(root)
+    print()
+    levelorder_traversal(root)
+    print()
+    preorder_traversal(root)

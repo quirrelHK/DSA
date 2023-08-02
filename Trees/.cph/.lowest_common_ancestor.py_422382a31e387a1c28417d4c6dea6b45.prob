@@ -1,0 +1,1 @@
+{"name":"Local: lowest_common_ancestor","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\lowest_common_ancestor.py","tests":[{"id":1690888386382,"input":"1 2 3 4 5 6 7 8 9 10 11 12\n2 11","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\lowest_common_ancestor.py","group":"local","local":true}
