@@ -43,8 +43,7 @@ def solve(A, B):
 # lst2=[10,25,29,38,5,36,38]
 
 # print(solve(lst1,lst2))
-mydict = dict()
-print(mydict.get(5,False))
+# mydict = dict()
+# print(mydict.get(5,False))
 
-        
         
