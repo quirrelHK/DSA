@@ -1,0 +1,1 @@
+{"name":"Local: insert_node_in_bst","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\insert_node_in_bst.py","tests":[{"id":1691431877585,"input":"7 8 9 5 4 3 6 1\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\insert_node_in_bst.py","group":"local","local":true}
