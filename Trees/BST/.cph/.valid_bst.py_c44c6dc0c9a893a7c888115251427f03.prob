@@ -1,0 +1,1 @@
+{"name":"Local: valid_bst","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\valid_bst.py","tests":[{"id":1691788687233,"input":"1 2 4 5 8 6 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\valid_bst.py","group":"local","local":true}
