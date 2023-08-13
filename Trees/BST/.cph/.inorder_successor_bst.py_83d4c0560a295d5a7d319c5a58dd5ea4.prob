@@ -1,0 +1,1 @@
+{"name":"Local: inorder_successor_bst","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\inorder_successor_bst.py","tests":[{"id":1691962166119,"input":"7 9 8 5 6 3 2 4\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\inorder_successor_bst.py","group":"local","local":true}

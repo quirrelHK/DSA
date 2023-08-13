@@ -1,0 +1,1 @@
+{"name":"Local: lca_in_bst","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\lca_in_bst.py","tests":[{"id":1691959574932,"input":"7 8 6 3 1 4 5 9\n1 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\lca_in_bst.py","group":"local","local":true}
