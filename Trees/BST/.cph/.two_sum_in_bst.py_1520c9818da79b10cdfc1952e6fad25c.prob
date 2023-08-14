@@ -1,0 +1,1 @@
+{"name":"Local: two_sum_in_bst","url":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\two_sum_in_bst.py","tests":[{"id":1692041323935,"input":"7 1 2 3 5 4 6 8\n16","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Trees\\BST\\two_sum_in_bst.py","group":"local","local":true}
