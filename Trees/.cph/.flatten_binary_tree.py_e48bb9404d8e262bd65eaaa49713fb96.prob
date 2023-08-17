@@ -1,0 +1,1 @@
+{"name":"Local: flatten_binary_tree","url":"e:\\ritesh\\DSA\\Trees\\flatten_binary_tree.py","tests":[{"id":1692207009042,"input":"1 2 5 3 4 6 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ritesh\\DSA\\Trees\\flatten_binary_tree.py","group":"local","local":true}
