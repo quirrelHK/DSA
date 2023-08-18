@@ -6,7 +6,7 @@ def matrix_graph(vertices,edges,is_one_indexed=True):
         graph = [[0]*vertices for _ in range(vertices)]
     
     for _ in range(edges):
-        u,v = int(input()),int(input())
+        u,v = list(map(int,input().split()))
         
         graph[u][v] = 1
         graph[v][u] = 1
@@ -20,7 +20,7 @@ def list_graph(vetices,edges,is_one_indexed=True):
         graph = [[] for i in range(vetices)]
     
     for _ in range(edges):
-        u,v = int(input()),int(input())
+        u,v = list(map(int,input().split()))
         graph[u].append(v)
         graph[v].append(u)
 
@@ -33,7 +33,8 @@ def weighted_list_graph(vetices,edges,is_one_indexed=True):
         graph = [[] for i in range(vetices)]
     
     for _ in range(edges):
-        u,v,w = int(input()),int(input()),int(input())
+        u,v,w = list(map(int,input().split()))
+
         graph[u].append((v,w))
         graph[v].append((u,w))
 
@@ -47,7 +48,8 @@ def directed_list_graph(vetices,edges,is_one_indexed=True):
         graph = [[] for i in range(vetices)]
     
     for _ in range(edges):
-        u,v = int(input()),int(input())
+        u,v = list(map(int,input().split()))
+
         graph[u].append(v)
 
     return graph
@@ -75,3 +77,11 @@ def generate_graph():
     graph[7].append(6)
 
     return graph,v,e
+
+def make_grid(n,m):
+    grid = [[0]*m for _ in range(n)]
+    cells = int(input())
+    for _ in range(cells):
+        row,col = list(map(int,input().split()))
+        grid[row][col] = 1
+    return grid
