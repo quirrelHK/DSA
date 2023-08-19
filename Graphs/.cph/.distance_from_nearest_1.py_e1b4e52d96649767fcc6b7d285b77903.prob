@@ -1,0 +1,1 @@
+{"name":"Local: distance_from_nearest_1","url":"e:\\ritesh\\DSA\\Graphs\\distance_from_nearest_1.py","tests":[{"id":1692451805399,"input":"3 3\n3\n1 1\n2 0\n2 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\ritesh\\DSA\\Graphs\\distance_from_nearest_1.py","group":"local","local":true}
