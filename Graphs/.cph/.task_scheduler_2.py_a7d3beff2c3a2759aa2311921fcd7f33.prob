@@ -1,0 +1,1 @@
+{"name":"Local: task_scheduler_2","url":"d:\\ritesh\\Desktop\\DSA\\Graphs\\task_scheduler_2.py","tests":[{"id":1693570673692,"input":"4 4\n1 0\n2 0\n3 1\n3 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Graphs\\task_scheduler_2.py","group":"local","local":true}
