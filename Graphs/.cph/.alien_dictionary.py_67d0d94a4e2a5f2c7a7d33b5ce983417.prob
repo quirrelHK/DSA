@@ -1,0 +1,1 @@
+{"name":"Local: alien_dictionary","url":"d:\\ritesh\\Desktop\\DSA\\Graphs\\alien_dictionary.py","tests":[{"id":1693856284230,"input":"5 4\nbaa abcd abca cab cada","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\Graphs\\alien_dictionary.py","group":"local","local":true}
