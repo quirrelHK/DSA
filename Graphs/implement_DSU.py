@@ -28,7 +28,7 @@ class DSU:
             self.parent[ultimate_v] = ultimate_u
             self.rank[ultimate_u]+=1
             
-            
+    # always add to the size of the larger i.e. compress smaller to larger            
     def union_by_size(self,u,v):
         ultimate_u = self.find_parent(u)
         ultimate_v = self.find_parent(v)
