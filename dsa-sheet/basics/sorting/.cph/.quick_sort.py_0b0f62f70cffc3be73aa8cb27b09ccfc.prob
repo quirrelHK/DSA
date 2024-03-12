@@ -1,0 +1,1 @@
+{"name":"Local: quick_sort","url":"d:\\ritesh\\Desktop\\DSA\\dsa-sheet\\basics\\sorting\\quick_sort.py","tests":[{"id":1710241789545,"input":"7 8 20 3 0 25 6 8 9 4 12 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\ritesh\\Desktop\\DSA\\dsa-sheet\\basics\\sorting\\quick_sort.py","group":"local","local":true}
